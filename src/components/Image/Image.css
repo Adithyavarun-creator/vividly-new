@@ -1,0 +1,53 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.image-functions {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+.edit-functions {
+  padding: 10px;
+  background-color: var(--darkgreycolor);
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.uploadimage {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.imageinfo {
+  font-size: 18px;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+
+.remove-btn {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  /* margin-top: 30px; */
+}

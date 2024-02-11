@@ -1,0 +1,13 @@
+.edit-section {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.edit-sidebar {
+  flex: 1.5;
+}
+
+.edit-content {
+  flex: 3;
+}

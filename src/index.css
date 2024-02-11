@@ -1,0 +1,65 @@
+:root {
+  --blackcolor: #333;
+  --whitecolor: #fff;
+  --lightgray: #f2f2f2;
+  --darkgreycolor: #d8d8d8;
+  --purplecolor: #3643bd;
+  --midpurple: #29358f;
+  --darkpurple: #20276d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: var(--darkgreycolor); */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  background: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--darkpurple);
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url(/Golos\ Text-normal-500-100.ttf);
+}
+
+.golos {
+  font-family: "Golos Text";
+}
+
+.homepage-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.linkstyle {
+  text-decoration: none;
+  color: var(--blackcolor);
+}
+
+.boldtext {
+  color: var(--midpurple);
+}

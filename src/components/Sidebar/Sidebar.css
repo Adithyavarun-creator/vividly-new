@@ -1,0 +1,54 @@
+.sidebar-section {
+  border-right: 0.7px solid var(--blackcolor);
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.sidebar-filterbox {
+  border: 1px solid var(--darkpurple);
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-filtertitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sketch {
+  margin-left: 50px;
+}
+
+.sketch-pencil {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sketch-icon {
+  background-color: #333;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  border-radius: 50%;
+}

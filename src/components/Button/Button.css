@@ -1,0 +1,12 @@
+.app-button {
+  padding: 16px;
+  font-weight: bolder;
+  border: none;
+  background-color: var(--purplecolor);
+  color: #fff;
+  font-size: 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  offset: none;
+  width: max-content;
+}

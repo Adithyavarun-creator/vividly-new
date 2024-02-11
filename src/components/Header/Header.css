@@ -1,0 +1,44 @@
+.header-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 55px;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.header-globe-img {
+  height: 160px;
+  width: 100%;
+  animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+.trns-text {
+  /* background: url(https://www.yachtandboat.com/wp-content/uploads/2018/12/hero-image-2.jpg) -20px -20px
+    no-repeat; */
+  background-color: var(--darkpurple);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* Below is not needed */
+  display: block;
+  font-size: 55px;
+  font-family: arial;
+  text-align: center;
+  /* margin-top: -20px; */
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  background-size: cover;
+}
