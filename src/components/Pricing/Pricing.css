@@ -4,12 +4,35 @@
   gap: 20px;
   padding-top: 50px;
   /* margin-top: 50px; */
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .pricing-title {
   font-size: 42px;
   text-align: center;
   font-weight: bolder;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .pricing-box-container {
@@ -19,6 +42,18 @@
   margin-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .pricing-box {
@@ -35,11 +70,33 @@
   cursor: pointer;
   background-color: #fff;
   transition: all 0.6s ease-in;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .pricing-box:hover {
   background-color: var(--darkgreycolor);
   color: #333;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .pricing-plan {
@@ -48,6 +105,18 @@
   background-color: #333;
   border-radius: 10px;
   color: #fff;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .pricing-scheme {
@@ -55,12 +124,34 @@
   padding: 12px;
   color: #333;
   border-radius: 10px;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .pricing-plandetails {
   font-size: 20px;
   text-decoration: underline;
   color: #333;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 ul {
@@ -68,6 +159,18 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 li {
@@ -75,4 +178,17 @@ li {
   font-size: 18px;
   color: #333;
   font-weight: bold;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
+
