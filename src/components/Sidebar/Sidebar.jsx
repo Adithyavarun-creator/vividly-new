@@ -97,11 +97,12 @@ const Sidebar = () => {
           </span>
         </div>
         {toggleColor && (
-          <SketchPicker
-            className="sketch"
-            color={background}
-            onChangeComplete={handleChangeComplete}
-          />
+          <div className="sketch">
+            <SketchPicker
+              color={background}
+              onChangeComplete={handleChangeComplete}
+            />
+          </div>
         )}
       </div>
 

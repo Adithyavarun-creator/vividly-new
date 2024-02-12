@@ -15,7 +15,6 @@
 }
 
 body {
-  /* background-color: var(--darkgreycolor); */
 }
 
 ::-webkit-scrollbar {
@@ -41,8 +40,6 @@ body {
   font-family: "Golos Text";
 }
 
-
-
 .flex {
   display: flex;
   flex-direction: row;
@@ -57,4 +54,5 @@ body {
 
 .boldtext {
   color: var(--midpurple);
+  cursor: pointer;
 }

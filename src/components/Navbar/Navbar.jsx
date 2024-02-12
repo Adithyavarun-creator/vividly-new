@@ -1,20 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import WhiteLogo from "../../assets/blacklogo.png";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { Link, useNavigate, useLocation, NavLink } from "react-router-dom";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const navigate = useNavigate();
-  const location = useLocation();
-
-  //destructuring pathname from location
-  const { pathname } = location;
-
-  //Javascript split method to get the name of the path in array
-  const splitLocation = pathname.split("/");
 
   const framerSidebarPanel = {
     initial: { x: "-100%" },
@@ -55,12 +48,22 @@ const Navbar = () => {
           <img src={WhiteLogo} className="vividlylogo" alt="" />
         </Link>
         <div className="nav-link-box">
-          <Link to="/edit-image" className="nav-linktext linkstyle">
+          <NavLink
+            to="/edit-image"
+            className={({ isActive }) =>
+              isActive ? "linkstyle active" : "nav-linktext linkstyle"
+            }
+          >
             Try free edit
-          </Link>
-          <Link to="/about" className="nav-linktext linkstyle">
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? "linkstyle active" : "nav-linktext linkstyle"
+            }
+          >
             About
-          </Link>
+          </NavLink>
         </div>
       </nav>
 

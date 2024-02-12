@@ -5,6 +5,7 @@ import X from "../../assets/socialimages/x.png";
 import Facebook from "../../assets/socialimages/facebook.png";
 import Gmail from "../../assets/socialimages/gmail.png";
 import Whatsapp from "../../assets/socialimages/whatsapp.png";
+import Github from "../../assets/socialimages/github.png";
 
 const Footer = () => {
   return (
@@ -26,16 +27,44 @@ const Footer = () => {
         </div>
         <div className="footer-sociallinks">
           <div>
-            <img src={Whatsapp} className="footer-sociallinkimg" alt="" />
+            <a href="whatsapp://send?text=Hello World!&phone=+917358315322">
+              <img
+                src={Whatsapp}
+                className="footer-sociallinkimg"
+                alt=""
+                title="Whatsapp"
+              />
+            </a>
           </div>
           <div>
-            <img src={X} className="footer-sociallinkimg" alt="" />
+            <a href="mailto:adithyavarun95@gmail.com">
+              <img
+                src={Gmail}
+                className="footer-sociallinkimg"
+                title="Gmail"
+                alt=""
+              />
+            </a>
           </div>
           <div>
-            <img src={Facebook} className="footer-sociallinkimg" alt="" />
+            <a
+              target="_blank"
+              href="https://github.com/Adithyavarun-creator?tab=repositories"
+              title="Github"
+            >
+              <img src={Github} className="footer-sociallinkimg" alt="" />
+            </a>
           </div>
           <div>
-            <img src={Gmail} className="footer-sociallinkimg" alt="" />
+            <img src={X} title="X" className="footer-sociallinkimg" alt="" />
+          </div>
+          <div>
+            <img
+              src={Facebook}
+              title="Facebook"
+              className="footer-sociallinkimg"
+              alt=""
+            />
           </div>
         </div>
       </div>

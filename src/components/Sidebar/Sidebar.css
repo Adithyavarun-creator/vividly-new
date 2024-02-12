@@ -1,5 +1,4 @@
 .sidebar-section {
-  border-right: 0.7px solid var(--blackcolor);
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -11,27 +10,21 @@
 
   @media all and (min-width: 1024px) and (max-width: 1280px) {
     height: 95vh;
-    border-right: 0.7px solid var(--blackcolor);
   }
 
   @media all and (min-width: 768px) and (max-width: 1024px) {
     height: 155vh;
-    border-right: 0.7px solid var(--blackcolor);
   }
 
   @media all and (min-width: 480px) and (max-width: 768px) {
     height: 185vh;
-    border-right: 0.7px solid var(--blackcolor);
     padding-bottom: 0;
   }
 
   @media all and (max-width: 480px) {
     height: 130vh;
     padding-top: 10px;
-    border-right: 0.7px solid var(--blackcolor);
     padding-bottom: 0;
-    /* justify-content: center;
-    align-items: center; */
   }
 }
 
@@ -45,10 +38,14 @@
   width: max-content;
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
+
   @media all and (min-width: 1024px) and (max-width: 1280px) {
+    margin: 0 auto;
   }
 
   @media all and (min-width: 768px) and (max-width: 1024px) {
+    margin: 0 auto;
   }
 
   @media all and (min-width: 480px) and (max-width: 768px) {
@@ -127,21 +124,23 @@
 }
 
 .sketch {
-  margin-left: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media all and (min-width: 1024px) and (max-width: 1280px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   @media all and (min-width: 768px) and (max-width: 1024px) {
-    margin-left: 10px;
   }
 
   @media all and (min-width: 480px) and (max-width: 768px) {
-    margin-left: 110px;
   }
 
   @media all and (max-width: 480px) {
-    margin-left: 100px;
   }
 }
 
