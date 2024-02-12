@@ -15,14 +15,14 @@ const Footer = () => {
         </div>
         <div className="footer-links">
           <span className="footer-linkheading">What we Promote</span>
-          <ul>
-            <li>Corporate</li>
-            <li>Promoters</li>
-            <li>PicsArt</li>
-            <li>AI enabled</li>
-            <li>Chats Support</li>
-            <li>Web techs</li>
-          </ul>
+          <div className="footerorder">
+            <span className="footerlist">Corporate</span>
+            <span className="footerlist">Promoters</span>
+            <span className="footerlist">PicsArt</span>
+            <span className="footerlist">AI enabled</span>
+            <span className="footerlist">Chats Support</span>
+            <span className="footerlist">Web techs</span>
+          </div>
         </div>
         <div className="footer-sociallinks">
           <div>

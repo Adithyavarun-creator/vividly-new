@@ -7,17 +7,42 @@
   align-items: center;
   padding: 20px;
   margin-top: 50px;
-}
 
-h2 {
-  text-align: center;
-  font-size: 26px;
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 5px;
+    gap: 35px;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    margin-top: 5px;
+    gap: 35px;
+  }
+
+  @media all and (max-width: 480px) {
+    margin-top: 10px;
+    gap: 35px;
+  }
 }
 
 .header-globe-img {
   height: 160px;
   width: 100%;
   animation: mymove 15s infinite;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 @keyframes mymove {
@@ -41,4 +66,20 @@ h2 {
   font-weight: bold;
   letter-spacing: -0.5px;
   background-size: cover;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 45px;
+
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    font-size: 38px;
+  }
+
+  @media all and (max-width: 480px) {
+    font-size: 36px;
+  }
 }

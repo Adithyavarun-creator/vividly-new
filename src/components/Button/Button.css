@@ -2,11 +2,34 @@
   padding: 16px;
   font-weight: bolder;
   border: none;
-  background-color: var(--purplecolor);
+  background-color: var(--darkpurple);
   color: #fff;
   font-size: 22px;
   border-radius: 8px;
   cursor: pointer;
   offset: none;
   width: max-content;
+  transition: all 0.6s ease-in;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    padding: 14px;
+    font-size: 18px;
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  @media all and (max-width: 480px) {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+.app-button:hover {
+  background-color: var(--purplecolor);
 }

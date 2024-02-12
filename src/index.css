@@ -41,12 +41,7 @@ body {
   font-family: "Golos Text";
 }
 
-.homepage-section {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-  padding: 10px;
-}
+
 
 .flex {
   display: flex;

@@ -5,6 +5,18 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .image-functions {
@@ -12,6 +24,18 @@
   flex-direction: row;
   gap: 30px;
   justify-content: center;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .edit-functions {
@@ -20,22 +44,75 @@
   border-radius: 10px;
   cursor: pointer;
   font-weight: 500;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .uploadimage {
   margin-top: 30px;
   display: flex;
   justify-content: center;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .img {
   height: 300px;
   width: 100%;
   object-fit: contain;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+    height: 300px;
+
+  }
 }
 
 .imageinfo {
   font-size: 18px;
+  text-align: center;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+    font-size: 13px;
+
+  }
 }
 
 .image-item {
@@ -43,11 +120,35 @@
   flex-direction: column;
   gap: 15px;
   justify-content: center;
+  align-items: center;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }
 
 .remove-btn {
   display: flex;
   justify-content: center;
   gap: 30px;
-  /* margin-top: 30px; */
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
 }

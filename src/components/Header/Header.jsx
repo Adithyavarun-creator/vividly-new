@@ -25,13 +25,8 @@ const Header = () => {
           world
         </h2>
       </div>
-      {/* <div>
-        <img src={BlackGlobe} className="header-globe-img" alt="" />
-      </div> */}
+
       <div>
-        {/* <button className="header-main-btn" onClick={editPage}>
-          Edit your images
-        </button> */}
         <Button text="Try a free edit now" onClick={editPage} />
       </div>
     </motion.div>

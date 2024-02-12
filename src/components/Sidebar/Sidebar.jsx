@@ -10,6 +10,8 @@ import {
   FaTextHeight,
   FaTextSlash,
 } from "react-icons/fa6";
+import { IoFilterSharp } from "react-icons/io5";
+
 import {
   CgShapeCircle,
   CgShapeHexagon,
@@ -36,7 +38,6 @@ import { SlFrame } from "react-icons/sl";
 import { PiFrameCorners } from "react-icons/pi";
 import { RxFrame } from "react-icons/rx";
 import { IoShapes, IoText } from "react-icons/io5";
-import EmojiPicker from "emoji-picker-react";
 
 const Sidebar = () => {
   const [toggleColor, setToggleColor] = useState(false);
@@ -53,8 +54,9 @@ const Sidebar = () => {
   };
   return (
     <div className="sidebar-section">
-      <div>
-        <h3>Adjust using filters below</h3>
+      <div className="filtertitlebox">
+        <IoFilterSharp />
+        <h3 className="filtertitle">Adjust using filters below</h3>
       </div>
 
       {/* Filter-1 */}
@@ -154,7 +156,7 @@ const Sidebar = () => {
       </div>
 
       {/* Filter-5 */}
-      <div className="sidebar-filterbox">
+      {/* <div className="sidebar-filterbox">
         <div className="">
           <span
             className="sidebar-filtertitle"
@@ -169,7 +171,7 @@ const Sidebar = () => {
             <EmojiPicker className="" />
           </div>
         )}
-      </div>
+      </div> */}
 
       {/* Filter-6 */}
       <div className="sidebar-filterbox">

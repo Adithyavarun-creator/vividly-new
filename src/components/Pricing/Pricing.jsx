@@ -54,38 +54,38 @@ const Pricing = () => {
             <span className="pricing-plandetails">Plan includes</span>
           </div>
           <div>
-            <ul>
-              <li className="flex">
+            <ul className="pricing-order">
+              <li className="pricing-list flex">
                 <MdDone />4 Trials
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Membership
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
-                24/7 Communication Support
+                24/7 Support
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Cancel at anytime
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 No Watermarks
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Email attachments
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Lifetime Access
               </li>
             </ul>
           </div>
           <div>
-            <Button text="Pay with EUR100" icon={<MdEuroSymbol />} />
+            <Button text="Pay with EUR100 / year" icon={<MdEuroSymbol />} />
           </div>
         </motion.div>
 
@@ -116,38 +116,38 @@ const Pricing = () => {
             <span className="pricing-plandetails">Plan includes</span>
           </div>
           <div>
-            <ul>
-              <li className="flex">
+            <ul className="pricing-order">
+              <li className="pricing-list flex">
                 <MdDone />4 Trials
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Membership
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
-                24/7 Communication Support
+                24/7 Support
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Cancel at anytime
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 No Watermarks
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Email attachments
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Lifetime Access
               </li>
             </ul>
           </div>
           <div>
-            <Button text="Pay with EUR100" icon={<MdEuroSymbol />} />
+            <Button text="Pay with EUR100 / year" icon={<MdEuroSymbol />} />
           </div>
         </motion.div>
 
@@ -178,38 +178,38 @@ const Pricing = () => {
             <span className="pricing-plandetails">Plan includes</span>
           </div>
           <div>
-            <ul>
-              <li className="flex">
+            <ul className="pricing-order">
+              <li className="pricing-list flex">
                 <MdDone />4 Trials
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Membership
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
-                24/7 Communication Support
+                24/7 Support
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Cancel at anytime
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 No Watermarks
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Email attachments
               </li>
-              <li className="flex">
+              <li className="pricing-list flex">
                 <MdDone />
                 Lifetime Access
               </li>
             </ul>
           </div>
           <div>
-            <Button text="Pay with EUR100" icon={<MdEuroSymbol />} />
+            <Button text="Pay with EUR100 / year" icon={<MdEuroSymbol />} />
           </div>
         </motion.div>
       </div>
