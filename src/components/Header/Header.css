@@ -84,6 +84,8 @@
 }
 
 .mobile-logo {
+  display: none;
+
   @media all and (min-width: 1024px) and (max-width: 1280px) {
     display: none;
   }
