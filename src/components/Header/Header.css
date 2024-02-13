@@ -85,7 +85,6 @@
 
 .mobile-logo {
   display: none;
-
   @media all and (min-width: 1024px) and (max-width: 1280px) {
     display: none;
   }
@@ -99,6 +98,7 @@
   }
 
   @media all and (max-width: 480px) {
+    display: block;
     height: 70px;
     width: 100%;
     object-fit: contain;
