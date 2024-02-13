@@ -3,6 +3,7 @@ import "./Header.css";
 import { useNavigate } from "react-router-dom";
 import Button from "../Button/Button";
 import { motion } from "framer-motion";
+import ColorLogo from "../../assets/colorlogo.png";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -18,6 +19,9 @@ const Header = () => {
       transition={{ duration: 1.8 }}
       className="header-section"
     >
+      <div>
+        <img src={ColorLogo} className="mobile-logo" alt="" />
+      </div>
       <div>
         <h2 className="trns-text">
           Become a modern Picasso by using our platform and share it to the
