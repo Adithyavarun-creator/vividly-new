@@ -6,23 +6,18 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 65vh;
 
   @media all and (min-width: 1024px) and (max-width: 1280px) {
-    height: 95vh;
   }
 
   @media all and (min-width: 768px) and (max-width: 1024px) {
-    height: 155vh;
   }
 
   @media all and (min-width: 480px) and (max-width: 768px) {
-    height: 185vh;
     padding-bottom: 0;
   }
 
   @media all and (max-width: 480px) {
-    height: 130vh;
     padding-top: 10px;
     padding-bottom: 0;
   }
@@ -78,7 +73,7 @@
 }
 
 .sidebar-filterbox {
-  border: 1px solid var(--darkpurple);
+  border: 0.8px solid var(--darkpurple);
   padding: 12px;
   border-radius: 10px;
   cursor: pointer;
@@ -144,28 +139,42 @@
 }
 
 .sketch-pencil {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 18px;
   justify-content: center;
 
   @media all and (min-width: 1024px) and (max-width: 1280px) {
   }
 
   @media all and (min-width: 768px) and (max-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 14px;
+    row-gap: 14px;
+    justify-content: center;
   }
 
   @media all and (min-width: 480px) and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 14px;
+    row-gap: 14px;
+    justify-content: center;
   }
 
   @media all and (max-width: 480px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
   }
 }
 
 .sketch-icon {
-  background-color: var(--purplecolor);
+  background-color: var(--midpurple);
   color: #fff;
   height: 45px;
   width: 45px;
@@ -188,5 +197,43 @@
   @media all and (max-width: 480px) {
     height: 35px;
     width: 35px;
+  }
+}
+
+.iconbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
+  }
+}
+
+.icontext {
+  font-size: 10px;
+  font-weight: bolder;
+  text-transform: capitalize;
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+  }
+
+  @media all and (max-width: 480px) {
   }
 }
