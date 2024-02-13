@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
-import BlackGlobe from "../../assets/blackglobe.png";
 import Button from "../Button/Button";
 import { motion } from "framer-motion";
 

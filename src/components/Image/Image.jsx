@@ -3,13 +3,7 @@ import "./Image.css";
 import ReactCrop from "react-image-crop";
 import "react-image-crop/dist/ReactCrop.css";
 import Button from "../Button/Button";
-import { CiCrop } from "react-icons/ci";
-import { MdOutlineRotateRight } from "react-icons/md";
-import { IoIosResize } from "react-icons/io";
-import ImageUploader from "react-image-upload";
 import "react-image-upload/dist/index.css";
-import { RiDeleteRow } from "react-icons/ri";
-import { BsCamera } from "react-icons/bs";
 import { MdDelete } from "react-icons/md";
 import { RiInformationFill, RiUpload2Line } from "react-icons/ri";
 import ImageUploading from "react-images-uploading";
@@ -20,17 +14,8 @@ const Image = () => {
   const [images, setImages] = React.useState([]);
   const maxNumber = 1;
 
-  function getImageFileObject(imageFile) {
-    // console.log({ imageFile });
-  }
-
-  function runAfterImageDelete(file) {
-    // console.log({ file });
-  }
-
   const onChange = (imageList, addUpdateIndex) => {
-    // data for submit
-    console.log(imageList, addUpdateIndex);
+    // console.log(imageList, addUpdateIndex);
     setImages(imageList);
   };
 
@@ -38,33 +23,8 @@ const Image = () => {
     generateDownload(images, crop);
   };
 
-  // const onDownload = () => {
-  //   generateDownload(image, croppedArea);
-  // };
-
   return (
     <div className="image-container">
-      {/* <div className="image-functions">
-        <div>
-          <span className="flex edit-functions">
-            <CiCrop />
-            &nbsp;Crop image
-          </span>
-        </div>
-        <div>
-          <span className="flex edit-functions">
-            <MdOutlineRotateRight />
-            &nbsp;Rotate image
-          </span>
-        </div>
-        <div>
-          <span className="flex edit-functions">
-            <IoIosResize />
-            &nbsp;Resize image
-          </span>
-        </div>
-      </div> */}
-
       <div className="uploadimage">
         <ImageUploading
           multiple

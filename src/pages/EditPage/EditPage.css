@@ -12,11 +12,12 @@
   @media all and (min-width: 480px) and (max-width: 768px) {
     flex-direction: column-reverse;
     gap: 15px;
+    justify-content: center;
   }
 
   @media all and (max-width: 480px) {
     flex-direction: column-reverse;
-    gap: 30px;
+    gap: 15px;
     justify-content: center;
   }
 }

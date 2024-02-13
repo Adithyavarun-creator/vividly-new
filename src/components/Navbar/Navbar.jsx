@@ -1,12 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Navbar.css";
 import WhiteLogo from "../../assets/blacklogo.png";
+import ColorLogo from "../../assets/colorlogo.png";
 import { Link, useNavigate, useLocation, NavLink } from "react-router-dom";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { AnimatePresence, motion } from "framer-motion";
 
-const Navbar = () => {
+const Navbar = ({ toggleTheme, setLightMode, setDarkMode }) => {
   const [toggle, setToggle] = useState(false);
+
   const navigate = useNavigate();
 
   const framerSidebarPanel = {
@@ -45,7 +47,7 @@ const Navbar = () => {
     <>
       <nav className="nav-container">
         <Link to="/" className="linkstyle nav-img-box">
-          <img src={WhiteLogo} className="vividlylogo" alt="" />
+          <img src={ColorLogo} className="vividlylogo" alt="" />
         </Link>
         <div className="nav-link-box">
           <NavLink
@@ -78,21 +80,35 @@ const Navbar = () => {
           {toggle && (
             <motion.div {...framerSidebarPanel} className="mobile-sidebar">
               <div className="mobile-navsection mobile-menubox">
-                <IoMdClose
-                  className="mobile-menuicon"
-                  onClick={() => setToggle(false)}
-                />
+                <motion.span {...framerText(0)}>
+                  <IoMdClose
+                    className="mobile-menuicon"
+                    onClick={() => setToggle(false)}
+                  />
+                </motion.span>
               </div>
 
               <div className="mobile-navlistcontent">
                 <ul className="mobile-ordered">
-                  <motion.li {...framerText(0)} onClick={mobilehome}>
+                  <motion.li
+                    className="mobile-navlist"
+                    {...framerText(2)}
+                    onClick={mobilehome}
+                  >
                     Home
                   </motion.li>
-                  <motion.li {...framerText(0)} onClick={mobileedit}>
+                  <motion.li
+                    className="mobile-navlist"
+                    {...framerText(4)}
+                    onClick={mobileedit}
+                  >
                     Edit images for free
                   </motion.li>
-                  <motion.li {...framerText(1)} onClick={mobileabout}>
+                  <motion.li
+                    className="mobile-navlist"
+                    {...framerText(6)}
+                    onClick={mobileabout}
+                  >
                     About
                   </motion.li>
                 </ul>

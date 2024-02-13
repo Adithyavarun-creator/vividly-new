@@ -53,6 +53,6 @@ body {
 }
 
 .boldtext {
-  color: var(--midpurple);
+  color: var(--purplecolor);
   cursor: pointer;
 }

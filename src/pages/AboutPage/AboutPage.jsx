@@ -18,6 +18,36 @@ const AboutPage = () => {
         <h3 className="about-title">About this website</h3>
       </div>
       <div>
+        <a
+          className="project-links"
+          target="_blank"
+          href="https://vercel.com"
+          title="Vercel Link"
+        >
+          Project deployed on Vercel <RiExternalLinkFill />
+        </a>
+      </div>
+      <div>
+        <a
+          className="project-links"
+          target="_blank"
+          href="https://vividly-new.vercel.app"
+          title="Live Link"
+        >
+          Project Live Link <RiExternalLinkFill />
+        </a>
+      </div>
+      <div>
+        <a
+          className="project-links"
+          target="_blank"
+          href="https://github.com/Adithyavarun-creator/vividly-new"
+          title="Github Repo Link"
+        >
+          Click here to access project files in Github <RiExternalLinkFill />
+        </a>
+      </div>
+      <div>
         <article className="about-notecontent">
           <span className="flex notetext">
             <FaInfo />
@@ -33,9 +63,9 @@ const AboutPage = () => {
           time to complete this website design I have used React js and framer
           motion package for animations and toggling. As I was much practiced
           with React js I just created this application with React js, maybe if
-          there would have been extra days to submit I would have gone throught
+          there would have been extra days to submit I would have gone through
           some documentations of PHP and Laravel and would have worked on that
-          frameworks.
+          frameworks which you preferred in word document.
         </article>
       </div>
       <div>
@@ -79,36 +109,6 @@ const AboutPage = () => {
           />
           <p className="about-techname">Framer Motion</p>
         </div>
-      </div>
-      <div>
-        <a
-          className="project-links"
-          target="_blank"
-          href="https://vercel.com"
-          title="Vercel Link"
-        >
-          Project deployed on Vercel <RiExternalLinkFill />
-        </a>
-      </div>
-      <div>
-        <a
-          className="project-links"
-          target="_blank"
-          href="https://vividly-new.vercel.app"
-          title="Live Link"
-        >
-          Project Live Link <RiExternalLinkFill />
-        </a>
-      </div>
-      <div>
-        <a
-          className="project-links"
-          target="_blank"
-          href="https://github.com/Adithyavarun-creator/vividly-new"
-          title="Github Repo Link"
-        >
-          Click here to access project files in Github <RiExternalLinkFill />
-        </a>
       </div>
       <div>
         <p className="about-thanks">

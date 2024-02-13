@@ -3,6 +3,7 @@ import "./Pricing.css";
 import Button from "../Button/Button";
 import { MdEuroSymbol, MdDone } from "react-icons/md";
 import { motion } from "framer-motion";
+import Vividlytext from "../../assets/vividlytext.png";
 
 const Pricing = () => {
   return (
@@ -42,6 +43,9 @@ const Pricing = () => {
           viewport={{ once: true }}
           className="pricing-box"
         >
+          <div>
+            <img src={Vividlytext} className="vivdlylogo" alt="" />
+          </div>
           <div>
             <h2 className="pricing-plan">Plan A</h2>
           </div>
@@ -84,6 +88,7 @@ const Pricing = () => {
               </li>
             </ul>
           </div>
+
           <div>
             <Button text="Pay with EUR100 / year" icon={<MdEuroSymbol />} />
           </div>
@@ -104,6 +109,9 @@ const Pricing = () => {
           viewport={{ once: true }}
           className="pricing-box"
         >
+          <div>
+            <img src={Vividlytext} className="vivdlylogo" alt="" />
+          </div>
           <div>
             <h2 className="pricing-plan">Plan B</h2>
           </div>
@@ -166,6 +174,9 @@ const Pricing = () => {
           viewport={{ once: true }}
           className="pricing-box"
         >
+          <div>
+            <img src={Vividlytext} className="vivdlylogo" alt="" />
+          </div>
           <div>
             <h2 className="pricing-plan">Plan C</h2>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import BlackLogo from "../../assets/blacklogo.png";
+import ColorLogo from "../../assets/colorlogo.png";
 import X from "../../assets/socialimages/x.png";
 import Facebook from "../../assets/socialimages/facebook.png";
 import Gmail from "../../assets/socialimages/gmail.png";
@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="footer-section">
       <div className="footer-content">
         <div>
-          <img src={BlackLogo} className="footer-logoimg" alt="" />
+          <img src={ColorLogo} className="footer-logoimg" alt="" />
         </div>
         <div className="footer-links">
           <span className="footer-linkheading">What we Promote</span>

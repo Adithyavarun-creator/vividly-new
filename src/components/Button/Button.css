@@ -4,7 +4,7 @@
   border: none;
   background-color: var(--darkpurple);
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 8px;
   cursor: pointer;
   offset: none;
@@ -16,17 +16,17 @@
 
   @media all and (min-width: 768px) and (max-width: 1024px) {
     padding: 14px;
-    font-size: 18px;
+    font-size: 17px;
   }
 
   @media all and (min-width: 480px) and (max-width: 768px) {
     padding: 12px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   @media all and (max-width: 480px) {
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
