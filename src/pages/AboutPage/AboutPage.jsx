@@ -47,27 +47,7 @@ const AboutPage = () => {
           Click here to access project files in Github <RiExternalLinkFill />
         </a>
       </div>
-      <div>
-        <article className="about-notecontent">
-          <span className="flex notetext">
-            <FaInfo />
-            Note:
-          </span>
-          I just want to share a small note to you that I have learnt PHP and
-          Laravel which is been used by your company as I saw in the
-          presentation and word document, In my starting stage of programming I
-          have learnt PHP and Laravel but while searching for jobs I was adapted
-          to work on technologies with javascript frameworks like React js, Node
-          js and Angular js in my previous companies. So I was not able to
-          follow the updates of Laravel and PHP. In this case as I had a shorter
-          time to complete this website design I have used React js and framer
-          motion package for animations and toggling. As I was much practiced
-          with React js I just created this application with React js, maybe if
-          there would have been extra days to submit I would have gone through
-          some documentations of PHP and Laravel and would have worked on that
-          frameworks which you preferred in word document.
-        </article>
-      </div>
+     
       <div>
         <span className="about-article">
           This website is implemented using the following techs stated below :-
